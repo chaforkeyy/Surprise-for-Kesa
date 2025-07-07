@@ -1,0 +1,162 @@
+*,
+html{
+   margin:0;
+   padding:0;
+}
+
+.body-container{
+    background-color:pink;
+}
+
+.navbar-con{
+    background-color: white;
+    height: 10vh;
+
+}
+
+.ul-navbar{
+    display:flex;
+    height:150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    margin:30px;
+    padding-top:50px;
+    font-size: 65px;
+}
+
+.li-navbar:hover {
+    background-color: pink;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 5px;
+}
+
+.a-navbar{ 
+    text-decoration: none;
+}
+
+
+.h1-content{
+    padding-top: 200px;
+    font-size: 38px;
+}
+
+.h2-content{
+    font-size: 38px;
+}
+
+.p-content{
+    font-size: 32px;
+}
+
+.inline{
+    text-align: center;
+    padding-top: 100px;
+    height:85vh;
+}
+.baby{
+  background-color: aqua;
+  display: inline-block;
+  width:95%;
+  justify-content: center;
+  align-items: center;
+  border-radius:50px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.p-content{
+    background-color: white;
+    padding-left:50px;
+    padding-right: 50px;
+    width:90%;
+    height: 1000px;
+    margin:0 auto;
+    padding-top: 50px;
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 9px 16px 0px 7px rgba(250,24,227,0.75);
+    -webkit-box-shadow: 9px 16px 0px 7px rgba(250,24,227,0.75);
+    -moz-box-shadow: 9px 16px 0px 7px rgba(250,24,227,0.75);
+}
+
+.footer-con{
+    height:5vh;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+}
+
+.h1-footer{
+    font-size:32px;
+}
+
+@media (min-width:768px) {
+    .inline { 
+        font-size: 14px;  
+    }
+}
+
+#emoji-container {
+ position: fixed;
+ top:0;
+ left:0;
+ width:100%;
+ height:100;
+ pointer-events : none;
+ z-index: 999;   
+}
+
+.emoji-float {
+    position: absolute;
+    font-size: 100px;
+    animation: floatUP 2s ease-out forwards;
+    opacity:0.9;
+}
+
+@keyframes floatUP{
+    from {
+        transform: translateY(0);
+        opacity:1;
+    }
+    to {
+        transform: translateY(-100px);
+        opacity:0;
+    }
+}
+
+.music-container{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.tombol{
+    font-size: 50px;
+    
+}
+
+
+.sticker6{
+    position:absolute;
+    height:200px;
+    margin-top:900px;
+    margin-left:200px;
+}
+
+.sticker1{
+    position: absolute;
+    height:250px;
+    margin:150px 20px;
+}
+
+.sticker3{
+    height:250px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
